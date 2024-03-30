@@ -19,7 +19,7 @@ main {
   margin: 0 auto 20px;
   padding: 44px 24px 23px;
 }
-#Duo-Logo {
+#duo-logo {
   width: 205px;
   margin: 20px auto;
   display: block;
@@ -98,3 +98,13 @@ gap: 4px;
  font-size: 20px;
  font-weight: 700;
 }
+@media screen and (max-width:400px) {
+  main {
+    width: 350px;
+    margin: -25px auto 20px;
+    padding: 29px 28px 17px;
+}
+#duo-logo {
+  margin: -25px auto;
+}
+  }
